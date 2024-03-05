@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.A02_TipTime" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="textInputStyle">@style/Widget.A02_TipTime.TextView</item>
+        <!-- For radio buttons 對於單選按鈕-->
+        <item name="radioButtonStyle">@style/Widget.A02_TipTime.CompoundButton.RadioButton</item>
+        <!-- For switches 對於開關-->
+        <item name="switchStyle">@style/Widget.A02_TipTime.CompoundButton.Switch</item>
+    </style>
+</resources>

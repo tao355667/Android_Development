@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A02_TipTime</string>
+    <string name="ok_10">还行（10%）</string>
+    <string name="good_16">不错（16%）</string>
+    <string name="amazing_21">非常好（21%）</string>
+    <string name="how_was_the_service">服务怎么样？</string>
+    <string name="calculate_button">计算</string>
+    <string name="tip_amount">小费金额：%s</string>
+    <string name="cost_of_service">服务费</string>
+    <string name="round_up_tip">要四舍五入吗？</string>
+    <string name="tip_time">计算小费</string>
+</resources>

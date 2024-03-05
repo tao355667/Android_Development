@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A01_First_App</string>
+    <string name="button">+1</string>
+    <string name="button_decrement">-1</string>
+</resources>

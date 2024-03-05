@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextView style文字檢視樣式 確保組件設置了所有重要的默認值-->
+    <style name="Widget.A02_TipTime.TextView" parent="Widget.MaterialComponents.TextView">
+        <!-- android:minHeight根據材料設計指南，任何一行的最小高度應為48dp  -->
+        <item name="android:minHeight">48dp</item>
+        <!--  android:gravity屬性使文本在垂直方向居中 -->
+        <item name="android:gravity">center_vertical</item>
+        <!--TextAppearance(文字外觀)字體和文本的一組預製樣式 attr(屬性) -->
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    <!-- Radio Button style 單選按鈕樣式-->
+    <style name="Widget.A02_TipTime.CompoundButton.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <!-- paddingStart屬性僅在組件的開頭設置填充-->
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <!-- Switch style 開關風格-->
+    <style name="Widget.A02_TipTime.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+</resources>
